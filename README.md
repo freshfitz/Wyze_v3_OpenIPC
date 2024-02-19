@@ -48,10 +48,11 @@ admin<br />
 Now you have OPENIPC installed but probably no wifi<br />
 Run ip a<br />
 If no wifi try this, try these commands<br />
-modprobe 8189fs<br>
 fw_setenv wlandev atbm603x-t31-wyze-v3<br>
 fw_setenv wlanssid YOURWIFISSID<br>
 fw_setenv wlanpass YOURWIFIPW<br>
+modprobe 8189fs<br>
+
 
 
 
