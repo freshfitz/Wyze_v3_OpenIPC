@@ -46,12 +46,24 @@ admin<br />
 12345
 
 Now you have OPENIPC installed but probably no wifi<br />
-Run ip a<br />
-If no wifi try this, try these commands<br />
-fw_setenv wlandev atbm603x-t31-wyze-v3<br>
-fw_setenv wlanssid YOURWIFISSID<br>
-fw_setenv wlanpass YOURWIFIPW<br>
-modprobe 8189fs<br>
+Download these files from git and put them on an sd card<br>
+run df -h<br>
+you should see the SD card partition /dev/mmcblk0p1<br>
+Run the redacted sdcards2.sh I made
+root@openipc-t31: sh /mnt/mmcblk0p1/sdcards/sdcard2.sh -d /dev/mmcblk0p1<br>
+or cd to the dir cd /mnt/mmcblk0p1/sdcards<br>
+then sh sdcard2.sh -d /dev/mmcblk0p1<br>
+After that is finsihed to root<br/>
+cd /<br/>
+sh install.sh<br/>
+modprobe 8189fd<br/>
+ifup wlan0<br/>
+
+You should get an IP address not on the wlan<br>
+visit http://CAM IP ADDRESS:85n<br>
+n<br>
+You should get OPenIPC login page
+
 
 
 
