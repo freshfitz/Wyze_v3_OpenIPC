@@ -52,8 +52,6 @@ If no wifi try this<br />
 
 
 
-admin<br />
-12345<br />
 
 
 
