@@ -12,6 +12,7 @@ Once the cam is out of the house connect the claw to the eprom. Put the red wire
 
 
 Download neoprogrammer and set chip to whichever is on the board mine is
+
 ![image](https://github.com/freshfitz/Wyze_v3_OpenIPC/assets/7000841/475927b5-5b3a-4835-8cd1-89386de182bc)
 
 Make a backup of the Wyze firmware click the read chip icon.
