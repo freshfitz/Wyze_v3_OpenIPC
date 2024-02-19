@@ -15,14 +15,16 @@ Download neoprogrammer and set chip to whichever is on the board mine is
 
 ![image](https://github.com/freshfitz/Wyze_v3_OpenIPC/assets/7000841/475927b5-5b3a-4835-8cd1-89386de182bc)
 
-Make a backup of the Wyze firmware click the read chip icon.
-File Save
+Make a backup of the Wyze firmware, in neoprgarmmer<br />
+click the read chip icon<br />
+File Save<br />
 Save .bin and store it somewhere safe if you want to go back to the wyze firmware.
 
 Go here - https://openipc.org/cameras/vendors/ingenic/socs/t31x Select NOR16 and download .bin file
 
-Go back to your neopgrammer and select Erase IC<br />
-File Open<br />
+Go back to your neopgrammer<br />
+Select the Erase IC icon(***MAKE SURE YOU HAVE A .bin BACKUP****)<br />
+File -> Open<br />
 Open .bin you just downloaded<br />
 Click Write IC<br />
 
