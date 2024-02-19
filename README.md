@@ -47,6 +47,7 @@ admin<br />
 
 Now you have OPENIPC installed but probably no wifi<br />
 Download these files from git and put them on an sd card<br>
+Inser SD card in camera SD card slot<br>
 run df -h<br>
 you should see the SD card partition /dev/mmcblk0p1<br>
 Run the redacted sdcards2.sh I made
