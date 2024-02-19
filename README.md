@@ -35,7 +35,23 @@ Open Putty<br />
 Set to Serial, Com port, and <br />
 ![image](https://github.com/freshfitz/Wyze_v3_OpenIPC/assets/7000841/0c55b0a2-d98f-4eca-85a7-7c0b98838362)
 
-Boot Wyze cam with putton open and you should get a login prompt<br />
+Boot Wyze cam with putty you will see Kernel Panic VFS can't mount rootfs(**** WHAT EVER YOU DO, DO NOT PANIC*****)<br />
+
+Press CTRL-C while cam is booting and you'll get a prompt type in run setnor16m
+
+OPENIPC# run setnor16m<br />
+press enter<br />
+Cam will reboot to a login prompt<br />
+admin<br />
+12345
+
+No you have OPENIPC install but probably no wifi<br />
+Run ip a<br />
+If no wifi try this<br />
+
+
+
+
 admin<br />
 12345<br />
 
