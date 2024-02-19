@@ -11,3 +11,30 @@ Once the cam is out of the house connect the claw to the eprom. Put the red wire
 ![uart-flash](https://github.com/freshfitz/Wyze_v3_OpenIPC/assets/7000841/0fd8f51c-ecc7-4aee-9e0a-6cfa680368c1)
 
 
+Download neoprogrammer and set chip to whichever is on the board mine is
+![image](https://github.com/freshfitz/Wyze_v3_OpenIPC/assets/7000841/475927b5-5b3a-4835-8cd1-89386de182bc)
+
+Make a backup of the Wyze firmware click the read chip icon.
+File Save
+Save .bin and store it somewhere safe if you want to go back to the wyze firmware.
+
+Go here - https://openipc.org/cameras/vendors/ingenic/socs/t31x Select NOR16 and download .bin file
+
+Go back to your neopgrammer and select Erase IC
+File Open
+Open .bin you just downloaded
+Click Write IC
+
+Make sure you have one of these - https://www.amazon.com/Serial-Adapter-Signal-Prolific-Windows/dp/B07R8BQYW1/ref=sr_1_6?crid=2XKOY0WQO8UXM&dib=eyJ2IjoiMSJ9.eprdgCSnyC_zHrP5bQpAg9b4tIZvoQXdtWdkItJajHk7JjftKr1tLlAsXqexnZ_MpY0Y8psTrc_b9DsVeHAhf9VgP_hG7PIgojKALfAzmVp_sD06wtrDp0QbTRm5HPhAM-m_KtS5K3c-kDmNeeJEsYkfQl6ncIL7nIX5PTYDQWfQA3ntt5sOwePpIbS57lCf-i9jJx5OiD0GmXwgE5bfOFdPyYUSQ9TY3_f_kK7Zdd0.3oKMDFMUnrgiqt3spL6XgwNwy8NKanLwqog5LLMkhB8&dib_tag=se&keywords=usb+to+ttl&qid=1708359627&sprefix=usb+to+ttl%2Caps%2C100&sr=8-6
+
+Connect this to the GRND, TX and RX pins
+Open Putty
+Set to Serial, Com port, and 
+![image](https://github.com/freshfitz/Wyze_v3_OpenIPC/assets/7000841/0c55b0a2-d98f-4eca-85a7-7c0b98838362)
+
+Boot Wyze cam with putton open and you should get a login prompt
+admin
+12345
+
+
+
