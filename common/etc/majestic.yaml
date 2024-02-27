@@ -1,0 +1,68 @@
+system:
+  webAdmin: disabled
+  buffer: 1024
+isp:
+  blkCnt: 1
+  lowDelay: false
+image:
+  mirror: false
+  flip: false
+  rotate: none
+  contrast: 50
+  hue: 50
+  saturation: 50
+  luminance: 50
+osd:
+  enabled: false
+  template: "%a %e %B %Y %H:%M:%S %Z"
+nightMode:
+  enabled: true
+  nightAPI: true
+  backlightPin: 47
+  irSensorPinInvert: false
+  irSoftSensor: true
+  irCutPin1: 53
+  irCutPin2: 52
+  dncDelay: 30
+records:
+  enabled: false
+  path: /mnt/mmcblk0p1/%Y/%m/%d/%H/%M.mp4
+  maxUsage: 95
+video0:
+  enabled: true
+video1:
+  enabled: false
+jpeg:
+  enabled: true
+mjpeg:
+  size: 640x360
+  fps: 5
+  bitrate: 2048
+audio:
+  enabled: true
+  volume: 70
+  srate: 8000
+  codec: alaw
+  outputEnabled: true
+  speakerPin: 51
+  speakerPinInvert: true
+rtsp:
+  enabled: true
+  port: 554
+hls:
+  enabled: false
+youtube:
+  enabled: false
+motionDetect:
+  enabled: false
+  visualize: true
+  debug: true
+ipeye:
+  enabled: false
+netip:
+  enabled: false
+onvif:
+  enabled: true
+watchdog:
+  enabled: true
+  timeout: 10
