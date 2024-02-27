@@ -1,6 +1,10 @@
 # Wyze_v3_OpenIPC
 Wyze v3 OpenIPC install
 
+Git Clone https://github.com/themactep/device-wyze-v3
+
+Repalce sdcard1.sh with this one, then follow this
+
 I could not get this to work - https://github.com/themactep/device-wyze-v3/tree/master, the .sh scripts would run with errors. Partd gave an error so here is what I did to get OpenIPC on the wyze cam V3 with the realtek wifi chip.
 
 Open the Cam and take out the board - https://www.youtube.com/watch?v=jm4wze_HY78
